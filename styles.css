@@ -18,6 +18,7 @@ body {
 #personal{
   margin-left: 80px;
   .p1{
+   
     font-size: xx-large;
   }
   .p2{
@@ -95,15 +96,34 @@ body {
   line-height: 150px;
   color: #03446A;
   text-align: center;
-  font-size: 60px;
+  font-size: 50px;
   border-radius: 5px;
   backface-visibility: hidden;
 }
-
+.front{
+  h5{
+    height: 55px;
+  }
+  h7{
+    font-size:25px;
+  }
+  
+}
 .back {
   background: #03446A;
   color: white;
   transform: rotateY( 180deg );
+  button{
+    border-radius: 2rem;
+    width: 200px;
+    height: 60px;
+    background-color: #03446A;
+    border-color: #fff;
+    font-size: x-large;
+  }
+  .devicon-github-original{
+    font-size:xx-large;
+  }
 }
 
 /* contact section */
